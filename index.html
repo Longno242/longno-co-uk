@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Longno - Main Site Coming Soon</title>
+  <style>
+    :root {
+      --bg: #0b1020;
+      --panel: rgba(20, 28, 48, 0.72);
+      --text: #f3f7ff;
+      --muted: #a9b7d3;
+      --accent: #67b2ff;
+      --accent-2: #8a7dff;
+      --border: rgba(150, 180, 255, 0.24);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      min-height: 100vh;
+      font-family: Inter, Segoe UI, Roboto, Arial, sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at 20% 10%, rgba(103, 178, 255, 0.18), transparent 35%),
+        radial-gradient(circle at 80% 30%, rgba(138, 125, 255, 0.2), transparent 30%),
+        linear-gradient(140deg, #080d1a 0%, #111b33 50%, #0a1224 100%);
+      display: grid;
+      place-items: center;
+      padding: 24px;
+    }
+
+    .card {
+      width: min(760px, 100%);
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 22px;
+      backdrop-filter: blur(8px);
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+      padding: clamp(24px, 4vw, 44px);
+    }
+
+    .badge {
+      display: inline-block;
+      font-size: 0.8rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #d7e7ff;
+      border: 1px solid rgba(160, 200, 255, 0.5);
+      border-radius: 999px;
+      padding: 8px 14px;
+      margin-bottom: 18px;
+      background: rgba(103, 178, 255, 0.12);
+    }
+
+    h1 {
+      font-size: clamp(1.8rem, 4vw, 3rem);
+      line-height: 1.15;
+      margin-bottom: 14px;
+    }
+
+    p {
+      color: var(--muted);
+      line-height: 1.6;
+      font-size: clamp(1rem, 1.6vw, 1.15rem);
+      max-width: 60ch;
+      margin-bottom: 18px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 8px;
+      text-decoration: none;
+      color: #081326;
+      font-weight: 700;
+      border-radius: 12px;
+      padding: 14px 20px;
+      background: linear-gradient(135deg, var(--accent), var(--accent-2));
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+      box-shadow: 0 10px 28px rgba(96, 155, 255, 0.35);
+    }
+
+    .btn:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 14px 32px rgba(96, 155, 255, 0.45);
+    }
+
+    .small {
+      margin-top: 18px;
+      font-size: 0.92rem;
+      opacity: 0.9;
+    }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <span class="badge">Longno.co.uk</span>
+    <h1>Main website is currently being built.</h1>
+    <p>
+      Thanks for visiting Longno. The full website is still in development, but you can view live progress and updates on our current page.
+    </p>
+    <a class="btn" href="https://longno.lovable.app" target="_blank" rel="noopener noreferrer">
+      View Progress on longno.lovable.app
+    </a>
+    <p class="small">
+      Temporary link: <strong>https://longno.lovable.app</strong>
+    </p>
+  </main>
+</body>
+</html>

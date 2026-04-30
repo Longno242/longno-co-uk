@@ -3,7 +3,7 @@ function App() {
     <main className="page">
       <section className="card">
         <div className="top">
-          <h1>LONGNO.CO.UK</h1>
+          <h1>ENCRYPTIC.CO.UK</h1>
           <span className="status">Website in progress</span>
         </div>
 
@@ -44,7 +44,7 @@ function App() {
           </div>
           <div className="link-card">
             <strong>Main domain</strong>
-            <p>Longno.co.uk (coming soon)</p>
+            <p>Encryptic.co.uk (coming soon)</p>
           </div>
         </div>
       </section>
